@@ -1,12 +1,12 @@
-// no filter and no search
+// I would recommend using bootstrap but it's not required
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
-// Local data array to mock Supabase data
+// define your data here
 const mockData = [
 ];
 
-// Function to render a grid of cards based on the data
+// display your data from mockData
 const RenderCardGrid = () => {
     return (
       <div>return your cards here</div>
