@@ -75,13 +75,12 @@ const RenderCardGrid = ({ data }) => {
                     width: '300px', 
                     height: '200px',
                     overflow: 'hidden',
-                    position: 'relative'
                 }}
                 >
                     
-                    <img src={item.path} alt={item.category} style={{ 
+                    <img src={item.path} style={{ 
                         width: '100%', 
-                        height: '100px',
+                        height: '50%',
                         objectFit: 'cover' }} />
                     <div style={{fontWeight: 'bold'}}>{item.category}</div>
                     <div>SKU: {item.brand}</div>
